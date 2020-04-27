@@ -285,15 +285,15 @@ header .container .toggle .line {
 	header .container .logo-link {
 		width: 200px;
 	}
-	header .container .nav {
-		position: fixed;
+	.nav {
+		position: absolute;
 		top: 0;
 		left: 0;
 		height: 100%;
 		background: #fff;
 		z-index: 999;
 		margin-top: 0;
-		padding-top: 2rem;
+		/* padding-top: 2rem; */
 		transition: var(--transition);
 		transform: translateX(-100%);
 	}
@@ -316,7 +316,7 @@ header .container .toggle .line {
 	}
 
 	.show {
-		transform: translateX(100%);
+		transform: translateX(0);
 		z-index: 999;
 	}
 
