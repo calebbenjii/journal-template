@@ -377,7 +377,65 @@ header .container .toggle .line {
 }
 
 /*=====================================================
+About section */
+
+.about-title {
+	font-weight: var(--font-weight);
+	font-size: 18px;
+}
+
+.about-section ul {
+	list-style-type: circle;
+	padding: 10px;
+}
+
+.about-bg {
+	background: var(--lightGrey);
+	padding: 30px 20px;
+	border-radius: 15px;
+	border-top-left-radius: 100px;
+	box-shadow: var(--shadow);
+	transform: rotate(2deg);
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.about-bg ul li {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 2.5rem;
+}
+.about-bg ul li .icon {
+	margin: 0 2rem;
+}
+
+.about-bg ul li .icon .fa-book {
+	color: var(--primaryColor);
+	font-size: 2.5rem;
+	padding: 30px;
+	border: solid 1px var(--primaryColor);
+	border-radius: 50%;
+	transition: var(--transition);
+}
+
+.about-bg ul li .icon .fa-book:hover {
+	color: var(--secondaryColor);
+}
+
+.about-bg ul li .list a{
+	color: var(--secondaryColor)
+}
+.about-bg ul li .list .author-name {
+	color: #5a5656;
+}
+
+
+/*=====================================================
 Journal section */
+
+.section {
+	margin-bottom: 4rem;
+}
 
 .journal-section .card {
 	margin-bottom: 1.5rem;
