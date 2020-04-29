@@ -437,6 +437,7 @@ Journal section */
 .section {
 	margin-bottom: 4rem;
 	border-bottom: solid 1px var(--lightGrey);
+	padding: 4rem 0;
 }
 
 .journal-section .card {
@@ -460,7 +461,7 @@ Journal section */
 Author section */
 
 .about-author {
-	padding: 4rem 0;
+	
 
 }
 
@@ -759,6 +760,23 @@ Footer */
 
 	.ol-timeline {
 		margin-top: 50px;
+	}
+
+	.ol-timeline li.tl-item {
+		margin-bottom: 150px;
+	}
+
+	.ol-timeline li.tl-item .discription {
+		font-size: 15px;
+	}
+	.ol-timeline:before {
+		content: '';
+	position: absolute;
+	width: 8px;
+	height: 70%;
+	margin-top: 14px;
+	top: 65px;
+	left: 153px;
 	}
 	
 }
