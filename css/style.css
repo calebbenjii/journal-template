@@ -58,7 +58,7 @@ a:hover{
 .section-header {
 	text-transform: capitalize;
 	text-align: center;
-	margin: 2rem 0;
+	margin: 1rem 0;
 	font-weight: var(--font-weight);
 	position: relative;
 }
@@ -437,7 +437,7 @@ Journal section */
 .section {
 	margin-bottom: 4rem;
 	border-bottom: solid 1px var(--lightGrey);
-	padding: 4rem 0;
+	padding: 1rem 0;
 }
 
 .journal-section .card {
@@ -720,10 +720,10 @@ Footer */
 	}
 
 	.slider-landing .carousel-item{
-		height: 28vh;
+		height: 20vh;
 	}
 	.slider-landing .carousel-item img{
-		height: 40vh;
+		height: 20vh;
 	}
 
 	.fa-chevron-circle-right, .fa-chevron-circle-left {
@@ -777,6 +777,13 @@ Footer */
 	margin-top: 14px;
 	top: 65px;
 	left: 153px;
+	}
+
+	.section-header {
+		font-size: 1.5rem;
+	}
+	.section-header .bottom-line {
+		height: 2px;
 	}
 	
 }
