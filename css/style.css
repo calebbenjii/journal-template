@@ -439,6 +439,54 @@ About section */
 /*=====================================================
 Journal section */
 
+.journal-nav  {
+	margin-bottom: 4rem;
+}
+.journal-papers {
+	margin-bottom: 1rem;
+}
+
+.active {
+	color: #fff;
+	background: #b03838;
+	padding: 5px 20px;
+}
+
+.journal-papers-wrap .tab-pan {
+	display: none;
+	visibility: hidden;
+}
+
+.journal-nav > ul > li a {
+	padding: 5px 20px;
+	color: #333;
+	font-weight: 700;
+}
+
+.journal-nav > ul > li a:hover {
+	color: #fff;
+	background: #b03838;
+	padding: 5px 20px;
+}
+.journal-nav > ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.journal-papers-nav> .nav-title {
+	text-align: center;
+	font-weight: 700;
+	margin: 2rem 0;
+	color: #000;
+}
+
+.journal-papers .journal-title a .fa-file-pdf{
+	color: var(--primaryColor);
+}
+
+
 .section {
 	margin-bottom: 4rem;
 	border-bottom: solid 1px var(--lightGrey);
@@ -447,6 +495,10 @@ Journal section */
 
 .journal-section .card {
 	margin-bottom: 1.5rem;
+}
+
+.journal .description {
+	margin-top: 3rem;
 }
 
 .card-body {
@@ -589,7 +641,7 @@ Book Page */
 	align-items: flex-end;
 }
 .book-showcase h2 {
-	width: 150px;
+	width: 200px;
 	z-index: 1;
 	background: #d32020bc;
 	padding: 0.5rem 2rem;
