@@ -23,6 +23,3 @@ $('.owl-carousel').owlCarousel({
       }
   }
 })
-
-
-const journals

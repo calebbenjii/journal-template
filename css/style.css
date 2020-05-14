@@ -446,18 +446,18 @@ Journal section */
 	margin-bottom: 1rem;
 }
 
-.active {
+/* .active {
 	color: #fff;
 	background: #b03838;
 	padding: 5px 20px;
-}
+} */
 
 .journal-papers-wrap .tab-pan {
 	display: none;
 	visibility: hidden;
 }
 
-.journal-nav > ul > li a {
+.journal-nav ul  li a {
 	padding: 5px 20px;
 	color: #333;
 	font-weight: 700;
