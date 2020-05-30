@@ -35,6 +35,10 @@ main {
 	display: block;
 }
 
+body {
+	font-size: 17px;
+}
+
 
 h1 {
   font-size: 2em;
@@ -752,7 +756,7 @@ Contact Page */
 
 .form {
 	display: block;
-	background: #f6f6f6ee;
+	background: var(--lightGrey);
 	border-radius: 4px;
 }
 
@@ -899,6 +903,39 @@ Events Section */
 	color: var(--primaryColor);
 }
 
+.about-content .title {
+	font-weight: bold;
+}
+
+.about-content .section-header {
+	font-size: 1.5rem;
+	text-align: left;
+}
+.about-content .section-header .bottom-line {
+	height: 2px;
+}
+
+.author-details {
+	margin-top: 2rem;
+}
+
+.authors {
+	margin-top: 4rem;
+}
+
+.author-details .author-name {
+	font-weight: bold;
+}
+.author-details .bio {
+	font-weight: bold;
+}
+
+.author-details ul li{
+	list-style-type: none;
+	font-weight: bold;
+	color: #5a5656;
+}
+
 /*=====================================================
 Footer */
 
@@ -999,7 +1036,7 @@ Footer */
 }
 
 
-.footer .icons .fa-twitter{
+.icons .fa-twitter{
 	color: #fff;
 	background: var(--twitterColor);
 	font-size: 16px;
@@ -1007,7 +1044,7 @@ Footer */
 	border-radius: 50%;
 	box-shadow: var(--shadow);
 }
-.footer .icons .fa-facebook-f{
+.icons .fa-facebook-f{
 	color: #fff;
 	background: var(--facebookColor);
 	font-size: 16px;
@@ -1015,7 +1052,7 @@ Footer */
 	border-radius: 50%;
 	box-shadow: var(--shadow);
 }
-.footer .icons .fa-linkedin-in{
+.icons .fa-linkedin-in{
 	color: #fff;
 	background: var(--linkedinColor);
 	font-size: 16px;
@@ -1023,7 +1060,7 @@ Footer */
 	border-radius: 50%;
 	box-shadow: var(--shadow);
 }
-.footer .icons .fa-google{
+.icons .fa-google{
 	color: #fff;
 	background: var(--googleColor);
 	font-size: 16px;
@@ -1041,6 +1078,8 @@ Footer */
 	color: var(--primaryColor);
 	text-transform: capitalize;
 }
+
+
 
 @media all and (max-width: 768px) {
 	.slider-landing {
