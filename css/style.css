@@ -872,6 +872,32 @@ Events Section */
 	}
 }
 
+.archive-section {
+	position: sticky;
+	top: 100px;
+}
+.archive {
+	background: var(--lightGrey);
+	border-radius: 5px;
+	padding: 20px;
+	width: 300px;
+	font-weight: bold;
+}
+.archive .title {
+	font-weight: bold;
+}
+.archive-list li {
+	border-bottom: 1px solid #949494;
+	padding: 10px 0;
+	font-weight: bold;
+}
+.archive-list li a {
+	color: #949494;
+	transition: var(--transition);
+}
+.archive-list li a:hover {
+	color: var(--primaryColor);
+}
 
 /*=====================================================
 Footer */
